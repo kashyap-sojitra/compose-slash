@@ -46,6 +46,8 @@ export default function handleSend(inputText, commands) {
               .substring(subS.lastIndexOf(" "), input.indexOf("/"))
               .toLowerCase();
           message = result;
+        } else {
+          message = input
         }
       } else {
         let start = input.indexOf("/") + 1;
@@ -72,6 +74,8 @@ export default function handleSend(inputText, commands) {
               .toLowerCase() +
             input.substring(end);
           message = result;
+        } else {
+          message = input
         }
       }
     } else {
