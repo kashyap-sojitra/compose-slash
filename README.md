@@ -1,6 +1,9 @@
 In the project directory, you need to run the following commands:
 
-### `yarn` // It installs all the dependencies
+To install all the Project Dependencies Please run the following command:
+### `yarn`
+
+Once all the dependencies are installed successfully run the following command to start the app locally:
 ### `yarn start`
 
 Runs the app in the development mode.\
